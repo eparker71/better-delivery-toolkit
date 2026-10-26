@@ -9,8 +9,8 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-STEPS = ["build_boards.py", "build_guides.py", "build_roles.py", "build_glossary.py",
-         "build_antipatterns.py", "build_practices.py", "build_industries.py", "build_prompts.py", "build_picker.py", "build_pm.py", "build_reports.py", "build_scenarios.py", "build_recipes.py",
+STEPS = ["build_boards.py", "build_guides.py", "build_roles.py", "build_nudges.py", "build_glossary.py",
+         "build_antipatterns.py", "build_practices.py", "build_industries.py", "build_prompts.py", "build_picker.py", "build_pm.py", "build_reports.py", "build_moments.py", "build_scenarios.py", "build_recipes.py",
          "build_meta.py"]
 
 for step in STEPS:

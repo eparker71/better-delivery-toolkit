@@ -24,6 +24,9 @@ RED, AMBER, FOREST, SKY = ("#991B1B", "#FEE2E2"), ("#92400E", "#FEF3C7"), ("#145
 SLATE = ("#334155", "#F1F5F9")
 
 EXTRA_CSS = """
+.mom{font-size:13px;color:var(--muted);margin:14px 0 0;}
+.mom a{color:#9A3412;}
+.mom b{color:var(--ink);}
 .boards{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 0;}
 .boards a{font:500 10.5px var(--mono);letter-spacing:.04em;color:#fff;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:5px 10px;}
 .boards a.primary{background:#C2410C;border-color:#C2410C;}
@@ -4637,6 +4640,24 @@ def spec_html(g):
 FB_JS = "(function(){var f=document.currentScript.parentNode,s=f.dataset.slug;window.addEventListener('load',function(){if(!(window.goatcounter&&window.goatcounter.count))return;f.querySelector('.q').hidden=false;f.querySelectorAll('button').forEach(function(b){b.onclick=function(){window.goatcounter.count({path:'feedback/'+s+'/'+b.dataset.v,title:'Guide feedback',event:true});f.querySelector('.q').hidden=true;f.querySelector('.thanks').hidden=false;}})})})();"
 
 
+_MOMENTS = None
+
+
+def moments_html(slug):
+    """Links to the Everyday Moments that draw on this guide's tool (none if no moment lists it)."""
+    global _MOMENTS
+    from build_roles import TOOLS
+    if _MOMENTS is None:
+        from moments_data import by_tool  # imported here so a bad moments.md doesn't stop unrelated imports of this module
+        _MOMENTS = by_tool()
+    keys = [k for k, v in TOOLS.items() if v[2] == f"facilitator-guide-{slug}.html"]
+    found = [m for k in keys for m in _MOMENTS.get(k, [])]
+    if not found:
+        return ""
+    links = " · ".join(f'<a href="moments.html#{m["id"]}">{escape(m["title"])}</a>' for m in found)
+    return f'<p class="mom"><b>Everyday moments where this helps:</b> {links}</p>'
+
+
 def feedback_html(slug):
     """\"Was this useful?\" buttons (shown only when GoatCounter is running) and a link to tell us how it went."""
     return (f'<section class="fb" data-slug="{slug}"><span class="q" hidden>Was this guide useful? '
@@ -4701,6 +4722,7 @@ def render(g, css):
         h2("How it fits the toolkit"),
         f'<p>{g["toolkit"]}</p>',
         spec_html(g),
+        moments_html(g["slug"]),
         feedback_html(g["slug"]),
         f'<p style="color:var(--muted);font-size:12px">← <a href="index.html">All tools</a> · <a href="glossary.html">Glossary of terms</a></p>',
         f'<footer><span>{escape(g["foot"])}</span><span>{escape(CREDIT)}</span></footer>',

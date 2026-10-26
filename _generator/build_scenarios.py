@@ -138,7 +138,7 @@ footer{{font:9px 'Geist Mono',monospace;letter-spacing:.08em;color:#5B6B82;text-
 <header><div class="wrap">
   <a class="back" href="index.html">← All tools</a>
   <h1>Scenario Playbook</h1>
-  <p>A running list of {total} common situations, each with first moves, longer-term fixes and the tools that help. For recurring habits rather than one-off situations, see the <a href="anti-patterns.html">Anti-Pattern Catalogue</a>.</p>
+  <p>A running list of {total} common situations, each with first moves, longer-term fixes and the tools that help. For recurring habits rather than one-off situations, see the <a href="anti-patterns.html">Anti-Pattern Catalogue</a>. For smaller, everyday moments, see <a href="moments.html">Everyday Moments</a>.</p>
   <div class="top"><input type="search" placeholder="Search, e.g. “deadline” or “new team”…" aria-label="Search scenarios">
   <a class="suggest" href="{REPO}/issues/new?template=scenario.yml">Suggest a scenario</a></div>
   <div class="bar">{chips}</div>

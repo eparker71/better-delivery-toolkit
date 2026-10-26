@@ -266,7 +266,7 @@ footer{{font:9px 'Geist Mono',monospace;letter-spacing:.08em;color:#5B6B82;text-
 <header><div class="wrap">
   <a class="back" href="index.html">← All tools</a>
   <h1>Start Here by Role</h1>
-  <p>Find the tools that fit your role. Each role has three to start with, then others worth knowing. Roles overlap, so use whichever lists help. To see how things are going, each role also has a report in <a href="reports-by-role.html">Reports by Role</a>.</p>
+  <p>Find the tools that fit your role. Each role has three to start with, then others worth knowing. Roles overlap, so use whichever lists help. To see how things are going, each role also has a report in <a href="reports-by-role.html">Reports by Role</a>, and for small, everyday situations there are the <a href="moments.html">Everyday Moments</a>.</p>
   <nav>{nav}</nav>
 </div></header>
 <main><div class="wrap">
