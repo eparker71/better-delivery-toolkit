@@ -232,7 +232,7 @@ Ways to try:
 - Commit to an outcome for the quarter, such as "customers can pay by invoice", and let the team decide how much Feature that takes.
 - Cut each Feature into thin slices a user could try, such as one customer type, the happy path, or one region first.
 - Release slices behind a switch, so a Feature that spans two quarters still shows progress in each.
-- Show progress as slices finished, and give the date as a range that narrows, not a promise made in advance.
+- Slice only the next quarter's work in detail, and keep later quarters as outcomes and rough Features until they come closer.
 What if: Product has promised a date to a customer, or the work can't be released in parts?
 Tools: User Story Map, Epic Breakdown Canvas, Now · Next · Later Roadmap
 Spot it: Single-date promises

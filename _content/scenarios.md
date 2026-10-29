@@ -278,8 +278,10 @@ First moves:
 - Ask what the quarter is for: a customer date, funding or a planning habit. Then offer that, such as an outcome for the quarter.
 - Pick one Feature that spans quarters and re-cut it into thin slices a user could try: one customer type, the happy path, one region.
 - Show progress as slices finished, and give the date as a range that narrows as slices land.
+- Let detail grow as the work comes closer (progressive elaboration), so a Feature isn't fully cut up in advance.
 Longer term:
 - Plan each quarter around outcomes, and let a Feature run across quarters without being renamed or re-counted.
+- Plan in rolling waves: slice the next quarter's work in detail, keep later quarters as outcomes and rough Features, and add detail as each one comes closer.
 - Release slices behind a switch, so unfinished Features can still reach users and teach you something.
 - Track how long it takes from starting a Feature to the first person using any part of it, and compare that with the tidy plan.
 Tools: Epic Breakdown Canvas, User Story Map, Story Splitting, Now · Next · Later Roadmap, Objectives & Key Results
