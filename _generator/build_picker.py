@@ -27,6 +27,7 @@ NEEDS = [
     ("start", "We're starting something new", "A new team doesn't know where to start", []),
     ("stuck", "Lots is started, little gets finished", "Lots of work is started but little is finished", []),
     ("agree", "We can't agree what to build", "Nobody can agree what to build next", []),
+    ("quarter", "Features are being cut to fit the quarter", "Product wants every Feature to fit in a quarter", []),
     ("value", "We're not sure we're building the right thing", "Users aren't using what we built", []),
     ("deadline", "A deadline is putting us under pressure", "The deadline has just been moved earlier", []),
     ("interrupt", "Urgent work keeps interrupting us", "Urgent work keeps interrupting the iteration", []),
