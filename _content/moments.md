@@ -224,6 +224,21 @@ Spot it: Stories keep carrying over
 Bigger version: Stories keep turning out bigger than expected
 Prompt: split
 
+## Every Feature has to fit in a quarter
+Event: Planning & refinement
+You'll notice: Features get names like "Phase 1" and "Part 2", and the team struggles to cut work so that each one ends neatly with the quarter.
+What's going on: When the calendar sets the size of the work, Features are cut by phase or component, not by what a user can use. Nothing works until the last part lands, and the plan looks tidy while the learning waits. The quarter suits a goal better than a container.
+Ways to try:
+- Commit to an outcome for the quarter, such as "customers can pay by invoice", and let the team decide how much Feature that takes.
+- Cut each Feature into thin slices a user could try, such as one customer type, the happy path, or one region first.
+- Release slices behind a switch, so a Feature that spans two quarters still shows progress in each.
+- Show progress as slices finished, and give the date as a range that narrows, not a promise made in advance.
+What if: Product has promised a date to a customer, or the work can't be released in parts?
+Tools: User Story Map, Epic Breakdown Canvas, Now · Next · Later Roadmap
+Spot it: Single-date promises
+Bigger version: Leadership wants a single delivery date
+Prompt: split
+
 ## Everything is top priority
 Event: Planning & refinement
 You'll notice: Every request comes marked urgent, and the list has no clear order.
