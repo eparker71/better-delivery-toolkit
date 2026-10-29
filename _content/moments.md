@@ -236,7 +236,7 @@ Ways to try:
 What if: Product has promised a date to a customer, or the work can't be released in parts?
 Tools: User Story Map, Epic Breakdown Canvas, Now · Next · Later Roadmap
 Spot it: Single-date promises
-Bigger version: Leadership wants a single delivery date
+Bigger version: Product wants every Feature to fit in a quarter
 Prompt: split
 
 ## Everything is top priority

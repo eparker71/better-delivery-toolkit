@@ -272,6 +272,18 @@ Longer term:
 - Hold a regular refinement session, and aim for several small items per iteration.
 Tools: Story Splitting, Example Mapping, Backlog Refinement
 
+## Product wants every Feature to fit in a quarter
+You'll notice: Features named "Phase 1" and "Part 2", work cut to match the calendar, and a team that finds the splits awkward.
+First moves:
+- Ask what the quarter is for: a customer date, funding or a planning habit. Then offer that, such as an outcome for the quarter.
+- Pick one Feature that spans quarters and re-cut it into thin slices a user could try: one customer type, the happy path, one region.
+- Show progress as slices finished, and give the date as a range that narrows as slices land.
+Longer term:
+- Plan each quarter around outcomes, and let a Feature run across quarters without being renamed or re-counted.
+- Release slices behind a switch, so unfinished Features can still reach users and teach you something.
+- Track how long it takes from starting a Feature to the first person using any part of it, and compare that with the tidy plan.
+Tools: Epic Breakdown Canvas, User Story Map, Story Splitting, Now · Next · Later Roadmap, Objectives & Key Results
+
 ## Users aren't using what we built
 You'll notice: low adoption, or features nobody mentions.
 First moves:
